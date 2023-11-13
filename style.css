@@ -13,7 +13,7 @@ width:100%;
 background-image: url(./img/capa-linguagens.png);
 background-size:750px;
 background-repeat: no-repeat;
-background-position:right bottom ;
+background-position: center center ;
 background-color: #191919;
 }
 
@@ -36,7 +36,7 @@ margin-left: 10%;
 
 
 .portifolio span {
-color:rgb(165, 83, 242);
+color:#f4d6f7;
 font-size: 45px;
 font-weight: 300px;
 }
@@ -66,28 +66,30 @@ color:#e7bbfb;
 }
 
 .menu-list.show {
-  display: block;
+  display:grid;
 }
 
 .menu-toggle {
   cursor: pointer;
-  color: #f4d6f7;
-  font-size: 25px;
   font-weight: bold;
+  height: 40px;
+  display: flex;
+  gap: 20px;
+  position: sticky;
   
 }
 
 
-.meu-nome{
-position: absolute;
-top: 50%;
-left:9%;
-animation-duration: 5s;
+section figure .meu-nome{
+position: center center;
+text-align: center;
+animation-duration: 10s;
 animation-name:slidein;
+
 }
 @keyframes slidein{
 from{
-    margin-left: 28%;
+    margin-left: 50%;
     }
 to{
     margin-left: 0%;
@@ -114,44 +116,32 @@ section{
     display:flex;
     align-items: center;
     padding: 60px 15%;
-    background-color:#150921 ;
+    background-color: #191919;
     justify-content: space-between;
 }
-section img {
-height: 350px;
-border-radius: 0%;
+section figure img {
+height: 300px;
+border-radius: 10%;
 border: 2px solid #c29eeb;
 margin-right:30px;
+display: block;
+background-position: center center;
+margin: 0 auto 10px;
 }
-section div h2{
+section figure h2{
 color:#e7bbfb;
 font-size:45px ;
 position:center;
 text-shadow: 2px 2px 4px rgba(234, 79, 228, 0.5);
+text-align: center;
 }
 
-section div p{
+section figure p{
 color: #c29eeb;
 font-size: 18px;
 margin-top:30px ;
 margin-bottom:20px ;
 }
-section div button{
-color: white;
-background-color: rgb(165, 83, 242);
-height: 50px;
-width: 179px;
-font-size: 18px;
-border: none;
-cursor:pointer ;
-border-radius: 26px;
-transition: 0.5s;
-}
-section div button:hover  {
-background-color: transparent;
-border:2px solid rgb(165, 83, 242); 
-}
-
 
 .projeto{
 background-color: #191919;
@@ -194,10 +184,14 @@ font-size:15px;
 background-color:rgb(165, 83, 242);
 color: #ebc2fe;
 font-size:15px ;
-padding:10px 20px;
+padding:05px 20px;
 border-radius: 30px;
 cursor: pointer;
 transition: 0.5s;
+}
+#txt-pet{
+  padding-bottom: 10px;
+
 }
 
 .card a:hover{
@@ -264,10 +258,15 @@ transition:0.5s;
   font-size: 15px;
   }
 
+  .menu-toggle{ height: 20px;
+  display: flex;
+  gap: 20px;
+  position: sticky;
+  }
   .caixa-principal {
     background-size:450px;
     background-repeat: no-repeat;
-    height: 58vh;
+    height: 70vh;
     width: 100%;
     align-items:center;
     background-position: 50%;
@@ -280,23 +279,26 @@ transition:0.5s;
   h1{
     font-size: 25px;
   }
-
-  .meu-nome h3{
+  section figure .meu-nome h1{
+    font-size: 20px;
+  }
+  section figure .meu-nome h3{
     font-size: 15px;
   }
 section{
   padding: 30px 7%;
+  height: 80vh;
 }
-  section div p{
+  section figure p{
     font-size: 10px;
-
+    text-align: justify;
   }
-  section div h2{
+  section figure h2{
     font-size: 25px;
   }
 
-  section img{
-    height: 180px;
+  section figure img{
+    height: 150px;
   }
 
   .projeto h2{
@@ -326,9 +328,11 @@ section{
   footer{
     padding-top:20px ;
     padding-bottom: 30px;
+    height: 20vh;
 
   }
   .card-projetos{
    margin-top: 10px;
+   height: 50vh;
   }
 }

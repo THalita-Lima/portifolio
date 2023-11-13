@@ -32,13 +32,18 @@ color:#ffffff;
 font-size:75px;
 font-weight: 500px;
 margin-left: 10%;
+animation-duration: 10s;
+animation-name:slidein;
+
+
 }
-
-
-.portifolio span {
-color:#f4d6f7;
-font-size: 45px;
-font-weight: 300px;
+@keyframes slidein{
+from{
+    margin-left: 50%;
+    }
+to{
+    margin-left: 0%;
+  }
 }
 
 li {
@@ -79,21 +84,10 @@ color:#e7bbfb;
   
 }
 
-
 section figure .meu-nome{
 position: center center;
 text-align: center;
-animation-duration: 10s;
-animation-name:slidein;
 
-}
-@keyframes slidein{
-from{
-    margin-left: 50%;
-    }
-to{
-    margin-left: 0%;
-  }
 }
 
 h1{

@@ -187,7 +187,7 @@ cursor: pointer;
 transition: 0.5s;
 }
 #txt-pet{
-  padding-bottom:  23px;
+  padding-bottom:23px;
 
 }
 
@@ -320,7 +320,7 @@ section{
     margin-bottom:15px;
   }
   #txt-pet {
-    padding-bottom: 23px;
+    padding-bottom:18px;
   }
 
   .card img{

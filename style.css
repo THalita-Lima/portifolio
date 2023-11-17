@@ -13,7 +13,7 @@ width:100%;
 background-image: url(./img/capa-linguagens.png);
 background-size:750px;
 background-repeat: no-repeat;
-background-position: center center ;
+background-position:center center;
 background-color: #191919;
 }
 
@@ -28,18 +28,21 @@ padding-top:20px ;
 
 
 .portifolio{
-color:#ffffff;
+color:#ec8ffa;
 font-size:75px;
 font-weight: 500px;
-margin-left: 10%;
-animation-duration: 10s;
+margin-left: 5%;
+animation-duration: 8s;
 animation-name:slidein;
 
-
+}
+.portifolio span {
+  color: #f6d3fb;
+  font-size: 60px;
 }
 @keyframes slidein{
 from{
-    margin-left: 50%;
+    margin-left: 70%;
     }
 to{
     margin-left: 0%;
@@ -110,7 +113,7 @@ section{
     display:flex;
     align-items: center;
     padding: 60px 15%;
-    background-color: #191919;
+    background-color: #040000;
     justify-content: space-between;
 }
 section figure img {
@@ -249,7 +252,7 @@ transition:0.5s;
   }
 
   .portifolio span{
-  font-size: 15px;
+  font-size: 20px;
   }
 
   .menu-toggle{ height: 20px;

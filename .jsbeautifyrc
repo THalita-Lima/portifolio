@@ -1,0 +1,20 @@
+{
+  "env": "current_directory",
+  "formatter": "prettier",
+  "formatOnSave": true,
+  "spaceAfterAnonymousFunction": true,
+  "editor.formatOnSave": true,
+  "html": {
+    "indent_inner_html": true,
+    "indent_size": 2,
+    "max_preserve_newlines": 2
+  },
+  "js": {
+    "indent_size": 2,
+    "space_before_condiditional": true,
+    "preserve_newlines": ["return"]
+  },
+  "css": {
+    "indent_size": 2
+  }
+}

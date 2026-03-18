@@ -1,0 +1,46 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url('/img/capa-linguagens.png');
+  background-size: 750px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  animation: slideIn 8s ease-in-out;
+  color: #ec8ffa;
+  font-size: 75px;
+}
+
+.hero h1 span {
+  color: #f6d3fb;
+  font-size: 60px;
+}
+
+@keyframes slideIn {
+  from {
+    margin-left: 70%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 50vh;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero h1 span {
+    font-size: 32px;
+  }
+}

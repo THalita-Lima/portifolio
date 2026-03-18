@@ -1,0 +1,10 @@
+Este projeto foi migrado para React.js seguindo as melhores práticas de desenvolvimento frontend.
+
+Antes de começar, leia: START-HERE.md
+
+Para mais informações:
+- README.md - Documentação geral
+- SETUP.md - Guia de instalação
+- MIGRATION.md - Detalhes da migração
+
+Desenvolvido com ❤️ usando React.js

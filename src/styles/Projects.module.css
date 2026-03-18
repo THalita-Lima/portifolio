@@ -1,0 +1,53 @@
+.projects {
+  padding: 60px 30px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.projectsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projectsTitle {
+  text-align: center;
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 50px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.projectsTitle::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #ec8ffa, #f6d3fb);
+  border-radius: 2px;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 40px 20px;
+  }
+
+  .projectsTitle {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .projectsGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
